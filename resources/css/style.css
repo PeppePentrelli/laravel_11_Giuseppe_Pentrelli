@@ -1,0 +1,1560 @@
+/* Sezione Variabili */
+:root {
+  /* --bg-color-primary: #0A1A0D;  */
+  --bg-color-primary: #115b1e;
+
+
+  --bg-element-primary: #F8F9FA;
+  --text-primary-color: #F8F9FA;
+
+}
+
+.hero-section {
+  background-image: url(/public/media/ProgettosenzAtitolo.jpg);
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+
+
+/* Sezione Variabili */
+
+/* traduttore google */
+.goog-te-banner-frame.skiptranslate,
+.goog-te-gadget {
+  display: none !important;
+}
+
+.goog-logo-link,
+.goog-te-gadget span {
+  display: none !important;
+}
+
+
+
+body>.skiptranslate {
+  display: none !important;
+  height: 0 !important;
+}
+
+.custom-language-select {
+  border-color: transparent !important;
+
+}
+
+.custom-language-select:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: transparent !important;
+
+}
+
+body {
+  top: 0px !important;
+}
+
+/* traduttore google */
+
+/* Pagina Profilo */
+.profile-card {
+  background-color: var(--bg-color-primary);
+  color: var(--text-primary-color);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  border-radius: 1rem;
+  padding: 2rem;
+  max-width: 900px;
+  margin: 2rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+}
+
+/* Pagina home */
+
+.header-welcome {
+  background-image: url('/public/media/HeaderHome.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.header-welcome .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(10, 67, 27, 0.5);
+  z-index: 1;
+}
+
+.header-welcome .content {
+  position: relative;
+  z-index: 2;
+  max-width: 700px;
+  padding: 20px;
+}
+
+
+.section2-welcome {
+  background-image: url('/public/media/homeSection2.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.section2-welcome .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(10, 67, 27, 0.5);
+  z-index: 1;
+  width: 100%;
+}
+
+.section2-welcome .content {
+  position: relative;
+  z-index: 2;
+  max-width: 700px;
+  padding: 20px;
+}
+
+
+.section3-welcome {
+  background-image: url('/public/media/homeSection3.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  max-width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.section3-welcome .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(10, 67, 27, 0.5);
+  z-index: 1;
+  width: 100%;
+}
+
+.section3-welcome .content {
+  position: relative;
+  z-index: 2;
+  max-width: 700px;
+  padding: 20px;
+
+}
+
+
+.section4-welcome {
+  background-image: url('/public/media/homeSection4.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  position: relative;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.section4-welcome .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(10, 67, 27, 0.5);
+  z-index: 1;
+}
+
+.section4-welcome .content {
+  position: relative;
+  z-index: 2;
+  max-width: 700px;
+  padding: 20px;
+}
+
+.section5-welcome {
+  background-image: url('/public/media/sectionWelcome5.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.section5-welcome .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(10, 67, 27, 0.5);
+  z-index: 1;
+}
+
+.section5-welcome .content {
+  position: relative;
+  z-index: 2;
+  max-width: 700px;
+  padding: 20px;
+}
+
+.section6-welcome {
+  background-image: url('/public/media/homeSection6.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.section6-welcome .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(10, 67, 27, 0.5);
+  z-index: 1;
+}
+
+.section6-welcome .content {
+  position: relative;
+  z-index: 2;
+  max-width: 700px;
+  padding: 20px;
+}
+
+
+@media (max-width: 768px) {
+  .header-welcome {
+    height: 60vh;
+  }
+
+  .header-welcome .content h1 {
+    font-size: 2rem;
+  }
+
+  .header-welcome .content p {
+    font-size: 1rem;
+  }
+}
+
+.section-carosello {
+  background: linear-gradient(transparent, #0A1A0D), url(/public/media/dog-02.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top;
+  background-image: url(/public/media/dog-02.jpg);
+}
+
+
+.section-adottami {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+  background-position: top;
+  background-image: url(/public/media/Adottami.png);
+}
+
+
+/* Foto profilo */
+.profile-image-wrapper {
+  position: relative;
+  flex-shrink: 0;
+  width: 180px;
+  height: 180px;
+}
+
+.profile-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid var(--bg-element-primary);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+  transition: transform 0.4s ease;
+}
+
+.profile-image-light {
+  border-color: var(--bg-color-primary);
+}
+
+.profile-image-dark {
+  border-color: var(--text-primary-color);
+}
+
+.profile-image:hover {
+  transform: scale(1.1) rotate(3deg);
+}
+
+/* Badge */
+.profile-badge {
+  background-color: var(--bg-element-primary);
+  color: var(--bg-color-primary);
+  padding: 0.3rem 1rem;
+  border-radius: 2rem;
+  font-weight: 700;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Info profilo */
+.profile-info {
+  flex: 1 1 0;
+  min-width: 300px;
+}
+
+.profile-name {
+  font-weight: 900;
+  font-size: 2.8rem;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
+
+
+/* Chip info */
+.info-chip {
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  padding: 0.4rem 0.8rem;
+  border-radius: 12px;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.9rem;
+  border: 2px solid transparent;
+}
+
+/* Tema chiaro */
+.chip-light {
+  background-color: var(--text-primary-color);
+  color: var(--bg-color-primary);
+  border-color: var(--bg-color-primary);
+}
+
+/* Tema scuro corretto */
+.chip-dark {
+  background-color: var(--bg-color-primary);
+  color: var(--text-primary-color);
+  border-color: var(--text-primary-color);
+}
+
+/* Hover tema chiaro */
+.chip-light:hover {
+  background-color: var(--bg-color-primary);
+  color: var(--text-primary-color);
+  border-color: var(--text-primary-color);
+}
+
+/* Hover tema scuro */
+.chip-dark:hover {
+  background-color: var(--text-primary-color);
+  color: var(--bg-color-primary);
+  border-color: var(--bg-color-primary);
+}
+
+
+
+/* Lista storie */
+.stories-list {
+  max-height: 280px;
+  overflow-y: auto;
+  padding-right: 0.5rem;
+}
+
+.story-item-light {
+  background-color: var(--text-primary-color);
+  color: var(--bg-color-primary);
+  border: 2px solid transparent;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.story-item-light:hover {
+  background-color: var(--bg-color-primary);
+  color: var(--text-primary-color);
+  border-color: var(--bg-color-primary);
+}
+
+.story-item-dark {
+  background-color: var(--bg-color-primary);
+  color: var(--text-primary-color);
+  border: 2px solid transparent;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+
+.story-item-light:hover {
+  background-color: var(--bg-color-primary);
+  color: var(--text-primary-color);
+  border: 2px solid var(--text-primary-color);
+
+}
+
+.story-item-dark:hover {
+  background-color: var(--text-primary-color);
+  color: var(--bg-color-primary);
+  border: 2px solid var(--bg-color-primary);
+
+
+}
+
+/* data pubblicazione */
+
+
+
+.story-item img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.story-title {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+
+
+
+.dateProfile-dark {
+  color: var(--bg-color-primary);
+}
+
+.dateProfile-dark:hover {
+  color: var(--text-primary-color);
+}
+
+.dateProfile-light {
+  color: var(--text-primary-color);
+}
+
+
+.dateProfile-light:hover {
+  color: var(--bg-color-primary);
+}
+
+
+
+
+/* Sezione cambio tema */
+.bg-theme-dark {
+
+  background-color: var(--bg-color-primary);
+  color: var(--text-primary-color);
+}
+
+body.bg-theme-light .Logo2 {
+  color: var(--bg-color-primary);
+
+}
+
+.bg-theme-light {
+
+  background-color: var(--text-primary-color);
+  color: var(--bg-color-primary);
+}
+
+.nav-light {
+  background-color: var(--text-primary-color) !important;
+  color: var(--bg-color-primary) !important;
+
+
+}
+
+.nav-light .nav-link {
+  color: var(--bg-color-primary) !important;
+
+}
+
+.nav-dark {
+  background-color: var(--bg-color-primary) !important;
+  color: var(--text-primary-color) !important;
+
+}
+
+.nav-dark .nav-link {
+  color: var(--text-primary-color) !important;
+}
+
+.footer-light {
+  color: var(--bg-color-primary) !important;
+  background-color: var(--text-primary-color) !important;
+}
+
+.footer-dark {
+  background-color: var(--bg-color-primary) !important;
+  color: var(--text-primary-color) !important;
+}
+
+/* Bottone cambia tema */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+  border: solid 1px var(--bg-color-primary);
+  border-radius: 10px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  background-color: var(--bg-element-primary);
+  border-radius: 34px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: background-color 0.3s;
+}
+
+.slider::before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 2px;
+  bottom: 2px;
+  background-color: var(--bg-color-primary);
+  border-radius: 50%;
+  transition: transform 0.3s;
+}
+
+input:checked+.slider::before {
+  transform: translateX(20px);
+}
+
+/* Bottone cambia tema */
+
+/* Stili per bottoni footer  */
+.btn-donazione {
+  background-color: var(--bg-color-primary) !important;
+  color: var(--text-primary-color) !important;
+  border: none;
+}
+
+.btn-torna-su-light {
+  background-color: var(--bg-color-primary) !important;
+  color: var(--text-primary-color) !important;
+  border: none;
+}
+
+.btn-torna-su-dark {
+  color: var(--bg-color-primary) !important;
+  background-color: var(--text-primary-color) !important;
+  border: none;
+}
+
+/* Stile scuro */
+
+
+.btn-dark-theme {
+  background-color: var(--text-primary-color) !important;
+  color: var(--bg-color-primary) !important;
+  border-color: var(--text-primary-color) !important;
+}
+
+
+.footerLink {
+  color: var(--bg-color-primary) !important;
+}
+
+.footerLink-light {
+  color: var(--text-primary-color) !important;
+}
+
+.btnCustom-dark-theme {
+  background-color: var(--text-primary-color) !important;
+  color: var(--bg-color-primary) !important;
+  border-color: var(--text-primary-color) !important;
+}
+
+.btnCustom-light-theme {
+  color: var(--text-primary-color) !important;
+  background-color: var(--bg-color-primary) !important;
+  border-color: var(--text-primary-color) !important;
+}
+
+
+.fieldset-light-theme {
+  border-color: white !important;
+
+  box-shadow: 0 2px 6px var(--bg-element-primary) !important;
+}
+
+
+.imgProfileBorder {
+  border: solid 2px gray;
+}
+
+.profile-card {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.profile-card.theme-light {
+  -color: var(--text-primary-color);
+  background-color: var(--bg-color-primary);
+}
+
+.profile-card.theme-dark {
+  color: var(--bg-color-primary);
+  background-color: var(--text-primary-color);
+}
+
+/* Sezione cambio tema */
+
+
+/* Navbar */
+.Logo {
+  max-height: 10vh;
+}
+
+
+/* Navbar */
+
+
+/* Form Registrati/Accedi */
+fieldset {
+  all: unset;
+
+  display: block;
+  border-radius: 20px;
+  border: 1px solid var(--bg-color-primary);
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+legend {
+  all: unset;
+  display: inline;
+  font-weight: bold;
+  margin-left: 0.5rem;
+}
+
+#LoginForm {
+  scroll-margin-top: 17vh;
+}
+
+
+.forgot-link-light {
+  color: var(--bg-color-primary);
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: color 0.3s ease, text-decoration 0.3s ease, transform 0.2s ease;
+}
+
+.forgot-link-light:hover {
+  color: #115b1e;
+  text-decoration: underline;
+  transform: translateY(-1px);
+}
+
+
+
+.forgot-link-dark {
+  color: var(--text-primary-color);
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: color 0.3s ease, text-decoration 0.3s ease, transform 0.2s ease;
+}
+
+.forgot-link-dark:hover {
+  color: #F8F9FA;
+  /* colore chiaro sul dark */
+  text-decoration: underline;
+  transform: translateY(-1px);
+}
+
+
+
+/* Tema chiaro */
+.icon-light-theme {
+  color: var(--text-primary-color);
+  /* testo scuro */
+  border: var(--text-primary-color);
+
+}
+
+.icon-light-theme {
+  border-color: var(--text-primary-color);
+}
+
+
+/* Tema scuro */
+.icon-dark-theme {
+  color: var(--bg-color-primary);
+  /* testo chiaro */
+}
+
+.icon-dark-theme hr {
+  border-color: var(--text-primary-color);
+  /* riga chiara */
+}
+
+
+/* footer */
+
+/* footer */
+
+
+/* Adozioni/ Come adottare   */
+
+/* Introduzione */
+
+.imgIntroduzione {
+
+  max-height: 500px
+}
+
+.imgIntroduzioneBorderDark {
+
+  border: solid 2px var(--bg-color-primary);
+  box-shadow: 0 5px 15px var(--bg-color-primary);
+}
+
+.imgIntroduzioneBorderLight {
+
+  border: solid 2px var(--text-primary-color);
+  box-shadow: 0 5px 15px var(--text-primary-color);
+
+}
+
+.timeline {
+  position: relative;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+}
+
+
+
+.timeline-item {
+  position: relative;
+  width: 50%;
+  padding: 20px 40px;
+  box-sizing: border-box;
+}
+
+.timeline-item.left {
+  left: 0;
+  text-align: right;
+}
+
+.timeline-item.right {
+  left: 50%;
+  text-align: left;
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  top: 30px;
+  width: 20px;
+  height: 20px;
+
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.timelineDark::before {
+  background: var(--text-primary-color);
+}
+
+.timeline-itemDark::before {
+  border: 2px solid var(--text-primary-color);
+}
+
+.timelineLight::before {
+  background: var(--bg-color-primary);
+}
+
+.timeline-itemLight::before {
+  border: 2px solid var(--bg-color-primary);
+}
+
+.timeline-item.left::before {
+  right: -10px;
+}
+
+.timeline-item.right::before {
+  left: -10px;
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  top: 30px;
+  width: 20px;
+  height: 20px;
+  background: transparent;
+  border: 2px solid gray;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+
+
+/* Dark */
+.timeline-itemDark::before {
+  background: var(--bg-color-primary);
+  border-color: var(--text-primary-color);
+}
+
+/* Light */
+.timeline-itemLight::before {
+  background: var(--text-primary-color);
+  border-color: var(--bg-color-primary);
+}
+
+#RegolamentoAdozioni {
+  scroll-margin-top: 17vh;
+}
+
+
+#ModuloAdozioni {
+  scroll-margin-top: 40vh;
+}
+
+/* FAQ ADOZIONI  */
+
+.accordion-button {
+  background-color: #fce4d6;
+  font-weight: bold;
+}
+
+.accordion-body {
+  background-color: #fff8f1;
+  color: #333;
+}
+
+.accordion-item {
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #dec5b3;
+}
+
+#FaqAdozioni {
+  scroll-margin-top: 17vh;
+
+}
+
+/* Adozioni / Cani Dispoibili */
+
+.staticBtn {
+  color: var(--text-primary-color);
+  background-color: var(--bg-color-primary);
+}
+
+.staticBtn:hover {
+  color: var(--text-primary-color);
+  background-color: var(--bg-color-primary);
+}
+
+#section-dog {
+  scroll-margin-top: 17vh;
+}
+
+
+/* Adozioni / Gatti Dispoibili */
+
+#section-cat {
+  scroll-margin-top: 17vh;
+}
+
+/* Adozioni / Contattaci */
+
+/* Card contatti rapidi */
+
+.header-contatti {
+  background: url('/public/media/HeaderContattiImg.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 75vh;
+  position: relative;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-contatti .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(10, 67, 27, 0.6);
+  z-index: 1;
+}
+
+.header-contatti .content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  max-width: 700px;
+  padding: 20px;
+}
+
+.contact-card {
+  background-color: #fff;
+  padding: 30px 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.contact-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.icon-circle {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 15px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Pagina Curiosita */
+
+.body-wrapper {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* Sidebar verticale */
+.vertical-nav {
+  top: 0;
+  left: 0;
+  position: sticky;
+  height: 100vh;
+  width: 80px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 4rem;
+  align-items: center;
+  z-index: 9;
+  overflow: hidden;
+
+}
+
+
+
+/* Sidebar verticale */
+.vertical-nav-dark {
+  color: var(--text-primary-color);
+  background-color: var(--bg-color-primary);
+}
+
+.vertical-nav-light {
+  background-color: var(--text-primary-color);
+  color: var(--bg-color-primary);
+}
+
+.vertical-nav-dark a {
+  color: var(--text-primary-color);
+}
+
+.vertical-nav-light a {
+  color: var(--bg-color-primary);
+}
+
+
+.vertical-nav a {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  margin: 1rem 0;
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 0.3s ease, color 0.3s;
+  margin-top: 60px !important;
+}
+
+.vertical-nav a:hover {
+  transform: rotate(180deg) scale(1.1);
+}
+
+.content {
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 2rem;
+}
+
+.section-title {
+  color: var(--color-primary);
+}
+
+.info-box {
+  background: #fffbe6;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  color: var(--bg-color-primary);
+}
+
+.checklist li {
+  transition: transform 0.2s ease;
+}
+
+.checklist li:hover {
+  transform: translateX(5px);
+}
+
+div.content {
+  padding-top: 0 !important;
+  position: relative;
+}
+
+
+footer {
+  z-index: 10;
+  position: relative;
+}
+
+
+#casa,
+#cura,
+#alimentazione,
+#addestramento,
+#vaccini {
+  scroll-margin-top: 37vh;
+}
+
+
+/* Pagina Volontariato */
+
+.section-heading {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 700;
+  margin-bottom: 2rem;
+  position: relative;
+  padding-bottom: 0.75rem;
+  text-align: center;
+}
+
+
+
+
+.section-heading::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  width: 80px;
+  height: 4px;
+  background-color: var(--text-primary-color);
+  border-radius: 2px;
+}
+
+
+.btn-cta {
+  padding: 1rem 2.5rem;
+  border-radius: 50px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  border: none;
+}
+
+.btn-cta:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Card Eventi/Volontariato */
+.custom-card {
+  border: 1px solid rgba(248, 249, 250, 0.3);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 10px;
+}
+
+.custom-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-event-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-event-img-left {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: left;
+}
+
+.custom-card-body {
+  padding: 1.5rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.custom-card-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 0.75rem;
+}
+
+.custom-card-dark {
+  color: var(--bg-color-primary);
+  background-color: var(--bg-element-primary);
+}
+
+.custom-card-light {
+  background-color: var(--bg-color-primary);
+  color: var(--bg-element-primary);
+}
+
+
+.btn-card-light {
+  color: var(--bg-color-primary);
+  background-color: var(--bg-element-primary);
+}
+
+.btn-card-dark {
+  background-color: var(--bg-color-primary);
+  color: var(--bg-element-primary);
+}
+
+
+/* Stili per i sottotitoli */
+.sub-heading {
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
+  font-weight: 600;
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: var(--text-primary-color);
+  text-align: center;
+}
+
+
+/* sezione volontari */
+
+#testimonials {
+  text-align: center;
+  padding: 60px 20px;
+
+}
+
+#testimonials h2 {
+  font-size: clamp(2rem, 5vw, 3rem);
+  margin-bottom: 40px;
+
+}
+
+.testimonial-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.testimonial {
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  max-width: 300px;
+  flex: 1 1 260px;
+  transition: transform 0.3s ease;
+
+}
+
+.testimonial:hover {
+  transform: translateY(-8px);
+}
+
+.testimonial img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+
+.testimonialProfileImageWrapper-dark {
+
+  border: solid 4px var(--text-primary-color);
+
+}
+
+.testimonialProfileImageWrapper-light {
+
+  border: solid 4px var(--bg-color-primary);
+}
+
+
+.testimonial-dark {
+  color: var(--bg-element-primary);
+  background-color: var(--bg-color-primary);
+}
+
+.testimonial-light {
+  background-color: var(--bg-element-primary);
+  color: var(--bg-color-primary);
+
+
+}
+
+.shadow-light {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+.shadow-on-green {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 768px) {
+  .testimonial-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
+
+/* pagina password dimenticata */
+
+.password-reset-container {
+  background-color: var(--text-primary-color);
+  padding: 35px 40px;
+  border-radius: 1rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 450px;
+  text-align: center;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+
+.password-reset-container:hover {
+  transform: translateY(-3px);
+}
+
+/* Titolo della pagina */
+.password-reset-container h2 {
+  color: var(--bg-color-primary);
+  margin-bottom: 25px;
+  font-size: 2.2rem;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+}
+
+
+.password-reset-container p {
+  margin-bottom: 30px;
+  line-height: 1.6;
+  color: #666;
+  font-size: 1rem;
+}
+
+
+.form-group {
+  margin-bottom: 25px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 700;
+  color: var(--bg-color-primary);
+  font-size: 0.95rem;
+}
+
+/* Stile del campo email */
+.form-group input {
+  width: 100%;
+  padding: 14px 18px;
+  border: 2px solid #e0e0e0;
+  border-radius: 0.6rem;
+  font-size: 1.05rem;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  color: #333;
+}
+
+
+
+.btn-submit {
+  width: 100%;
+  padding: 16px 20px;
+  background-color: var(--bg-color-primary);
+  color: var(--text-primary-color);
+  border: none;
+  border-radius: 0.75rem;
+  font-size: 1.15rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  margin-bottom: 25px;
+}
+
+.btn-submit:hover {
+  background-color: #0c4a16;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+}
+
+
+.status-message,
+.error-message {
+  margin-top: 25px;
+  padding: 15px 20px;
+  border-radius: 0.5rem;
+  font-size: 0.95rem;
+  text-align: left;
+  word-break: break-word;
+  line-height: 1.5;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  animation: fadeIn 0.5s ease-out forwards;
+}
+
+.status-message {
+  background-color: #e6ffe6;
+  color: #115b1e;
+  border: 1px solid #a8e0b4;
+}
+
+.error-message {
+  background-color: #ffe6e6;
+  color: #cc0000;
+  border: 1px solid #e0a8a8;
+}
+
+.error-message ul {
+  margin: 0;
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.error-message ul li {
+  margin-bottom: 5px;
+}
+
+.error-message ul li:last-child {
+  margin-bottom: 0;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 15px;
+  color: var(--bg-color-primary);
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: color 0.3s ease, text-decoration 0.3s ease, transform 0.2s ease;
+}
+
+.back-link:hover {
+  color: #115b1e;
+
+  text-decoration: underline;
+  transform: translateY(-1px);
+}
+
+
+/* Pagina post */
+
+.post-link {
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.post-link:hover {
+  text-decoration: underline;
+}
+
+
+.post-link-dark {
+  color: #e6ffe6;
+
+}
+
+.post-link-light {
+  color: #115b1e;
+
+}
+
+.comment-link {
+  text-decoration: none;
+  color: var(--bg-color-primary);
+}
+
+.comment-link:hover {
+
+  text-decoration: underline;
+}
+
+.comment-btn {
+  background-color: var(--bg-color-primary);
+  color: var(--text-primary-color);
+}
+
+
+.comment-btn:hover {
+  background-color: var(--bg-color-primary);
+  color: var(--text-primary-color);
+
+
+}
+
+.text-green {
+  color: var(--bg-color-primary);
+}
+
+.show-post {
+  color: var(--bg-color-primary);
+}
+
+/* Animazioni */
+
+/* Animazione per body */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInMoveUp 1s ease-out forwards;
+}
+
+@keyframes fadeInMoveUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* MediaQueery */
+@media (max-width: 760px) {
+  .profile-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .profile-image-wrapper {
+    margin: 0 auto;
+  }
+
+  .profile-info {
+    min-width: auto;
+  }
+
+  .profile-name {
+    font-size: 2rem;
+  }
+
+
+  /* Pagina Curiostia */
+  .vertical-nav a {
+
+    margin-top: 40px !important;
+  }
+
+  .vertical-nav {
+    width: 200px;
+
+  }
+
+  #casa,
+  #cura,
+  #alimentazione,
+  #addestramento,
+  #vaccini {
+    scroll-margin-top: 30vh;
+  }
+
+
+  .content {
+    margin-left: 20px;
+    padding: 2rem;
+  }
+}
+
+
+
+
+/* pagina password dimenticata */
+
+@media (max-width: 500px) {
+  .password-reset-container {
+    margin: 20px;
+    padding: 25px 30px;
+    border-radius: 0.75rem;
+
+  }
+
+  .password-reset-container h2 {
+    font-size: 1.8rem;
+  }
+
+  .btn-submit {
+    font-size: 1.05rem;
+    padding: 14px 18px;
+  }
+
+  .status-message,
+  .error-message {
+    padding: 12px 15px;
+    font-size: 0.9rem;
+  }
+
+  .back-link {
+    font-size: 0.95rem;
+  }
+}
