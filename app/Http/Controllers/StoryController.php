@@ -51,11 +51,7 @@ if ($request->hasFile('immagine')) {
 }
 
 
-$story = new Story([
-    'title' => $validated['title'],
-    'immagine' => $imagePath, 
-    'testimonianza' => $validated['testimonianza'],
-]);
+
 
   
       $story = new Story([
