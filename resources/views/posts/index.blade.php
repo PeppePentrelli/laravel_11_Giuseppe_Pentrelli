@@ -7,6 +7,7 @@
         }
     </style>
 
+
     <header class="hero-section py-5 text-white shadow position-relative">
         <div class="container">
             <div class="row align-items-center text-center text-md-start">
@@ -46,10 +47,10 @@
 
         <div class="row">
             @foreach ($posts as $post)
-                <div class="custom-card shadow-light  mb-5 col-12 col-md-5 mx-auto">
+                <div class="custom-card shadow-light  mb-5 col-12 col-md-5 mx-auto " style="height: 600px">
                     @if ($post->imgPost)
-                        <img src="{{ asset('storage/' . $post->imgPost) }}" class="card-img-top img-fluid"
-                            alt="{{ $post->titolo }}" style="height: 600px"; width="auto";>
+                        <img  src="{{ asset('storage/' . $post->imgPost) }}" class="card-img-top img-fluid"
+                            alt="{{ $post->titolo }}"  >
                     @endif
                     <div class="">
                         <h5 class="post-link">
